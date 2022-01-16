@@ -1,7 +1,11 @@
 const $teclas = document.querySelector('#teclas')
+const $visor = document.querySelector('.visor')
 
 function insertTeclas(e) {
-    console.log(e.target)
+    const tecla = e.target.id
+    console.log(tecla)
+
+
 }
 
 $teclas.addEventListener( 'click', insertTeclas )

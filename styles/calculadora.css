@@ -1,14 +1,4 @@
-@import url('./reset.css');
-@import url('./header.css');
-@import url('./calculadora.css');
 
-main {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: #ccc;
-}
-/* 
 #calculadora {
 	display: flex;
 	flex-direction: column;
@@ -82,7 +72,7 @@ main {
 }
 
 #calculadora > .teclado > #actions > .btn:hover {
-		background-color: black;
-		color: white;
+    background-color: black;
+    color: white;
 	opacity: 1;
-	} */
+}
