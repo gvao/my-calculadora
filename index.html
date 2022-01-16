@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
 
-    <script src="index.js" defer ></script>
-    <title>minha calculadora</title>
+	<script src="index.js" defer></script>
+	<title>minha calculadora</title>
 </head>
 
 <body>
-    <header>
-        <h1>Minha calculadora</h1> 
+	<header>
+		<h1>Minha calculadora</h1>
 
-    </header>
+	</header>
 
-    <main class="wrap">
-        <div id="calculadora">
-            <div class="visor">1+1</div>
+	<main class="wrap">
+		<div id="calculadora">
+			<div class="visor"></div>
 
-            <div class="teclado">
-                <button class="tecla-1">1</button>
-                <button class="tecla-2">2</button>
-                <button class="tecla-3">3</button>
-                <button class="tecla-4">4</button>
-                <button class="tecla-5">5</button>
-                <button class="tecla-6">6</button>
-                <button class="tecla-7">7</button>
-                <button class="tecla-8">8</button>
-                <button class="tecla-9">9</button>
-                <button class="tecla-0">0</button>
-            </div>
+			<div class="teclado">
+				<div id='teclas'>
+					<div class="tecla" id="1">1</div>
+					<div class="tecla" id="2">2</div>
+					<div class="tecla" id="3">3</div>
+					<div class="tecla" id="4">4</div>
+					<div class="tecla" id="5">5</div>
+					<div class="tecla" id="6">6</div>
+					<div class="tecla" id="7">7</div>
+					<div class="tecla" id="8">8</div>
+					<div class="tecla" id="9">9</div>
+					<div class="tecla" id="0">0</div>	
+				</div>
+				
+				<div id="actions">
+					<div class="btn">+</div>
+					<div class="btn">-</div>
+					<div class="btn">*</div>
+					<div class="btn">/</div>
+				</div>
 
-            <div class="actions">
-                <div class="btn">+</div>
-                <div class="btn">-</div>
-                <div class="btn">*</div>
-                <div class="btn">/</div>
-            </div>
-        </div>
-    </main>
+			</div>
+		</div>
+	</main>
 </body>
+
 </html>
