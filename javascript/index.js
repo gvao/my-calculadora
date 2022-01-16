@@ -8,7 +8,7 @@ function insertTeclas(e) {
     const tecla = e.target.id
     $visor.innerHTML += tecla
 
-    console.log($visor)
+    console.log(tecla)
 }
 
 function getAction(e) {
