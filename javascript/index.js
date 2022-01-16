@@ -6,9 +6,13 @@ function insertTeclas(e) {
     const tecla = e.target.id
     $visor.innerHTML += tecla
 
-    console.log(`tecla`, tecla)
+    console.log(`visor`, $visor)
+    console.log(`typeof visor`, typeof $visor)
+
 }
 $teclado.addEventListener( 'click', insertTeclas )
+
+
 
 console.log(`[index.js]: comecando...`)
 
