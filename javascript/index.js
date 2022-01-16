@@ -1,6 +1,6 @@
 import { somar } from "./functions"
 
-const $teclas = document.querySelector('#teclas')
+const $teclado = document.querySelector('#teclado')
 const $actions = document.querySelector('#actions')
 const $visor = document.querySelector('.visor')
 
@@ -17,6 +17,8 @@ function getAction(e) {
     somar( 1, 2, 3 )
 }
 
-$teclas.addEventListener( 'click', insertTeclas )
+$teclado.addEventListener( 'click', insertTeclas )
 
 $actions.addEventListener( 'click', getAction )
+
+console.log(`[index.js]: comecando...`)
