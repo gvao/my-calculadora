@@ -5,7 +5,8 @@ function insertTeclas(e) {
     const tecla = e.target.id
     console.log(tecla)
 
-
+    $visor.innerHTML += tecla
+    console.log($visor)
 }
 
 $teclas.addEventListener( 'click', insertTeclas )
