@@ -14,8 +14,23 @@ header {
     background-color: blue;
     color: white;
     padding: 10px;
+    padding-bottom: 30px;
 }
 
 main {
-    margin-top: -10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+#calculadora {
+
+    border: 2px solid;
+    padding: 20px;
+    margin-top: -20px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 2px 3px 2px;
 }
