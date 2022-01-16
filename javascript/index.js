@@ -1,4 +1,4 @@
-const { somar } = require("./functions")
+const { somar } = require("functions.js")
 
 const $teclado = document.querySelector('#teclado')
 const $visor = document.querySelector('.visor')
