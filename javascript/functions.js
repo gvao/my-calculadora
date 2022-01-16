@@ -1,6 +1,4 @@
-const soma = (...numbers) => {
-    console.log(`somar:`, numbers)
-}
+const soma = (...numbers) => numbers.reduce( (acc,num) => acc+num )
 
 
 module.exports = {
