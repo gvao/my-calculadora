@@ -47,13 +47,21 @@ main {
     box-shadow: 2px 3px 2px;
 }
 
-#calculadora > .visor > ul {
+#calculadora > .visor {
+
+    width: 100%;
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+#calculadora > .teclado > ul {
     display: flex;
     list-style: none;
     gap: 5px;
 }
 
-#calculadora > .visor > ul > li {
+#calculadora > .teclado > ul > li {
     background-color: #ccc;
     padding: 10px;
     border-radius: 6px;
