@@ -1,4 +1,4 @@
-import { somar } from "./functions"
+const { somar } = require("./functions")
 
 const $teclado = document.querySelector('#teclado')
 const $visor = document.querySelector('.visor')
