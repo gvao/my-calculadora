@@ -3,7 +3,6 @@ const { somar } = require("./functions")
 const $teclado = document.querySelector('#teclado')
 const $visor = document.querySelector('.visor')
 
-
 // quando usuario tecla nos digitos
 function insertTeclas(e) {
     const tecla = e.target.id

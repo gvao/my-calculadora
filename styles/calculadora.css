@@ -22,14 +22,14 @@
 	border-radius: 6px;
 }
 
-#calculadora > .teclado {
+#calculadora > #teclado {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 5px;
 }
 
-#calculadora > .teclado > #teclas {
+#calculadora > #teclado > #teclas {
 	flex: 2 0 30%;
 		flex-wrap: wrap;
 	background-color: #ccc;
@@ -37,7 +37,7 @@
 	display: flex;
 }
 
-#calculadora > .teclado > #teclas > .tecla {
+#calculadora > #teclado > #teclas > .tecla {
 	line-height: 40px;
 	width: 50px;
 	text-align: center;
@@ -48,7 +48,7 @@
 	flex: 1 0 30%
 }
 
-#calculadora > .teclado > #actions {
+#calculadora > #teclado > #actions {
 	flex: 0 1 100px ;
 	width: 100%;
 	display: flex;
@@ -59,7 +59,7 @@
 	cursor: pointer;
 }
 
-#calculadora > .teclado > #actions > .btn {
+#calculadora > #teclado > #actions > .btn {
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -71,7 +71,7 @@
 	transition: all 2s ;
 }
 
-#calculadora > .teclado > #actions > .btn:hover {
+#calculadora > #teclado > #actions > .btn:hover {
     background-color: black;
     color: white;
 	opacity: 1;
