@@ -34,7 +34,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: #ccc;
 }
 
 #calculadora {
@@ -55,14 +55,8 @@ main {
     border-radius: 6px;
 }
 
-#calculadora > .teclado > ul {
+#calculadora > .teclado {
+    width: 100%;
     display: flex;
-    list-style: none;
-    gap: 5px;
-}
-
-#calculadora > .teclado > ul > li {
-    background-color: #ccc;
-    padding: 10px;
-    border-radius: 6px;
+    
 }
