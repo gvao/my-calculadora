@@ -1,2 +1,2 @@
 # my-js
-um projeto simples
+Um projeto simples de uma calculadora
